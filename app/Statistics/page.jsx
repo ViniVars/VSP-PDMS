@@ -40,7 +40,7 @@ import Graph from "../Components/graph"
 import Link from "next/link"
 import TableDemo from '../Components/table'
 
-export default function Dashboard({ className }) {
+export default function Dashboard() {
 
   const [date, setDate] = useState({from: new Date(2022, 0, 20), to: addDays(new Date(2022, 0, 20), 20),});
   const [rep, setRep] = useState(null);
